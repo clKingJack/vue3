@@ -1,0 +1,63 @@
+{
+  "name": "vite-vue-3",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "clean": "npx rimraf dist",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kjgl77/datav-vue3": "^1.7.1",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "ant-design-vue": "^3.2.20",
+    "axios": "0.27.2",
+    "base64-js": "1.5.1",
+    "blueimp-md5": "2.19.0",
+    "crypto-js": "4.1.1",
+    "dayjs": "^1.11.10",
+    "driver.js": "^1.3.1",
+    "echarts": "^5.5.0",
+    "js-confetti": "^0.12.0",
+    "koa": "^2.15.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "koa2-cors": "^2.0.6",
+    "lodash": "4.17.21",
+    "lottie-web": "^5.12.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.3",
+    "reset-css": "5.0.1",
+    "tinymce": "^5.10.9",
+    "vue": "3.2.37",
+    "vue-multiselect": "^3.0.0-beta.3",
+    "vue-router": "4.1.3",
+    "vuesax": "^3.12.2",
+    "vuex": "4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/eslint-parser": "7.18.9",
+    "@originjs/vite-plugin-commonjs": "1.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vitejs/plugin-vue": "3.0.3",
+    "eslint": "^8.22.0",
+    "eslint-config-alloy": "4.6.2",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "koa-body": "^6.0.1",
+    "less": "4.1.3",
+    "prettier": "2.6.2",
+    "rimraf": "3.0.2",
+    "unplugin-auto-import": "^0.17.1",
+    "unplugin-vue-components": "0.22.4",
+    "vite": "3.0.7",
+    "vite-plugin-eslint": "1.8.1",
+    "vue-eslint-parser": "9.0.3"
+  }
+}
